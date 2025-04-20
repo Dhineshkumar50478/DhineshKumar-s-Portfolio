@@ -4,6 +4,7 @@ import Bookreview from '../assets/BookreviewWebsite.jpeg'
 import amazon from "../assets/amazon2.jpeg"
 import WeatherForecast from "../assets/WeatherForecast.jpg"
 import appStore from '../assets/appstore2.jpeg'
+import LoanPrediction from "../assets/LoanPrediction.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -107,6 +108,27 @@ const Project = () => {
             <Link to="https://appstore-app.netlify.app/">
               <p id="hover-text" className="pt-2 fw-bold">
                 App Store
+              </p>
+            </Link>
+          </div>
+        </div>
+
+        <div
+          className="col-12 col-sm-6 col-lg-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div id="img-container">
+            <img
+              src={LoanPrediction}
+              alt="Loan Prediction"
+              id="amazon-div"
+              className="rounded img-fluid w-100"
+              style={{maxWidth: "360px", height: "220px" }}
+            />
+            <Link to="https://loan-port-website-git-main-dhineshkumars-projects.vercel.app">
+              <p id="hover-text" className="pt-2 fw-bold">
+                Loan Prediction and Approval Website
               </p>
             </Link>
           </div>
